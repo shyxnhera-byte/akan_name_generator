@@ -81,7 +81,42 @@ color: #171717;
 font-size: 24px;
 }
     
+#Submit {
+    padding:5px 10px;
+    font-size: larger;
+    border-radius: 10px;
+    color: #171717;
+    background-color: #D4A72C;
+    margin-left: 40px;
+}   
+#Reset {
+    padding:5px 10px;
+    font-size: larger;
+    border-radius: 10px;
+    color: #171717;
+    background-color: red;
+    margin-left: 50px;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
     
     
     
