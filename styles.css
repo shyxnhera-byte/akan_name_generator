@@ -41,6 +41,14 @@ nav {
     margin-left: 150px;
     border-radius: 12px;
     border: 2px solid #160A06;
+}
+#akanman {
+    width: 450px;
+    margin-top: 50px;
+    margin-right: 150px;
+    border-radius: 12px;
+    border: 2px solid #160A06;
+    height: 600px;
 
 }
 #intro {
@@ -79,6 +87,7 @@ padding: 15px;
 border-radius: 8px;
 color: #171717;
 font-size: 24px;
+margin-left: 20px;
 }
     
 #Submit {
@@ -97,6 +106,10 @@ font-size: 24px;
     background-color: red;
     margin-left: 50px;
     
+}
+#hero {
+    display: flex;
+    gap: 200px;
 }
 
 
