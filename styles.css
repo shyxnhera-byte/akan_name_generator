@@ -60,6 +60,26 @@ nav {
     color: #D4A72C;
 
 }
+#form {
+    line-height: 30px;
+    margin-top: 50px;
+    border: 10px solid #D4A72C;
+    border-radius: 12px;
+    width: 500px;
+    height: 550px;
+    font-size: xx-large;
+    color: #D4A72C;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#form input {
+background-color: #eed8b9;
+padding: 15px;
+border-radius: 8px;
+color: #171717;
+font-size: 24px;
+}
     
     
     
