@@ -24,14 +24,14 @@ d = ( (CC/4 - 2*CC - 1) + (5*YY/4) + (26*(MM+1)/10) + DD ) mod 7
 
 
 ## Akan Names
-- Day	       Male Name	Female Name
-- Sunday	    Kwasi	    Akosua
-- Monday	    Kwadwo    	Adwoa
-- Tuesday	    Kwabena   	Abenaa
-- Wednesday	    Kwaku   	Akua
-- Thursday	    Yaw	        Yaa
-- Friday	    Kofi	    Afua
-- Saturday	    Kwame	    Ama
+- Day ( Male Name,	Female Name)
+- Sunday	(  Kwasi	,    Akosua)
+- Monday	(   Kwadwo   , 	Adwoa)
+- Tuesday	 (   Kwabena  , 	Abenaa)
+- Wednesday	 (   Kwaku   ,	Akua)
+- Thursday	 (  Yaw	    ,    Yaa)
+- Friday	 (   Kofi	 ,   Afua)
+- Saturday	  ( Kwame	 ,   Ama)
 
 ## License
 This project is released under the MIT license.
