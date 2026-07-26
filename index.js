@@ -17,7 +17,7 @@ const femaleNames = [
     "Afua",
     "Ama"
 ];
-
+const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 let paragraph = document.getElementById("Akan-name")
 
 let akan_form = document.getElementById("form")
@@ -30,6 +30,24 @@ let day = parseInt(document.getElementById("day").value, 10);
 let month = parseInt(document.getElementById("month").value, 10);
 let year = parseInt(document.getElementById("year").value, 10);
 let gender = document.getElementById("gender").value;
+
+//check month range
+if (month < 1 || month < 12){
+    alert("Month must be between 1 and 12.");
+    return;
+}
+//Then check the day range
+if (day > daysInMonth[month -1]){
+    alert("That month doesn't have that many days");
+    return;
+}
+
+//Match day of week to corresponding akan name based on gender
+let akanName;
+if (gender.toLowerCase() === "male")
+{ akanName = maleNames[dayOfWeek];}
+else if (gender.toLowerCase() === "female")
+{ akanName = femaleNames[dayOfWeek]}
 
 //calculating day of week
 let date = new Date(year, month -1,day)  //js counts months from 0
@@ -45,12 +63,7 @@ let dayOfWeek = (
     ) % 7;
 dayOfWeek = Math.floor(dayOfWeek)
 console.log(dayOfWeek)
-//Match day of week to corresponding akan name based on gender
-let akanName;
-if (gender.toLowerCase() === "male")
-{ akanName = maleNames[dayOfWeek];}
-else if (gender.toLowerCase() === "female")
-{ akanName = femaleNames[dayOfWeek]}
+
 
 paragraph.textContent = akanName
 });
