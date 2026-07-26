@@ -1,4 +1,4 @@
-//arrange akan names in arrays
+//arrange akan names in arrays 
 const maleNames = [
     "Kwasi",
     "Kwadwo",
