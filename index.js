@@ -38,7 +38,7 @@ if (month < 1 || month < 12){
 }
 //Then check the day range
 if (day > daysInMonth[month -1]){
-    alert("That month doesn't have that many days");
+    alert("That month doesn't have that many days.");
     return;
 }
 
