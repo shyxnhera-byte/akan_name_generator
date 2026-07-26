@@ -10,7 +10,7 @@ nav {
    background-color: #171717;
    height: 200px;
 }
-#logo {
+.logo {
     width: 300px;
     margin-top: 0;
     padding-top: 0;
@@ -68,7 +68,7 @@ nav {
     color: #D4A72C;
 
 }
-#form {
+#card {
     line-height: 30px;
     margin-top: 50px;
     border: 10px solid #D4A72C;
@@ -81,7 +81,7 @@ nav {
     font-weight: bold;
     margin-left: 50px;
 }
-#form input {
+#card input {
 background-color: #eed8b9;
 padding: 15px;
 border-radius: 8px;
@@ -123,8 +123,19 @@ margin-left: 20px;
     margin: 30px auto;
     
 }
+#footer {
+  display: flex;  
+  gap: 100px;
+  background-color: #171717;
 
-
+}
+footer div {
+    margin-top: 50px;
+    text-align: center;
+    color: #D4A72C;
+    font-size: larger;
+    font-weight: bolder;
+}
 
 
 

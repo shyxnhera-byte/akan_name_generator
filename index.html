@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <img id="logo" src="images/logo.png" alt="akan logo">
+            <img class="logo" src="images/logo.png" alt="akan logo">
             
         <ul id="menu">
         <li ><a href=" " class="menu_item">Home</a></li>
@@ -32,22 +32,24 @@
         </section>
         <section>
             <div id = hero>
-            <div id="form">
+            <div id="card">
+                <form id="form">
                 <h4>Enter your birth details and gender</h4>
-            <label for="Day">Day  </label>
-            <input type="number"> <br> <br>
+            <label for="day">Day  </label>
+            <input id="day" type="number"> <br> <br>
 
             <label for="month">Month</label>
-            <input type="text"> <br> <br>
+            <input id="month" type="number"> <br> <br>
 
             <label for="year">Year </label>
-            <input type="number"> <br> <br>
+            <input id="year" type="number"> <br> <br>
 
-            <label for="Gender">Gender</label>
-            <input type="text"> <br><br>
+            <label for="gender">Gender</label>
+            <input id="gender" type="text"> <br><br>
 
-            <button id="Submit">Submit</button>
-            <button id="Reset">Reset</button>
+            <button id="Submit" type="submit">Submit</button>
+            <button id="Reset" type="reset">Reset</button>
+            </form>
             </div>
             <img id="akanman" src="images/akanman.png" alt="akan man">
             </div>
@@ -59,7 +61,16 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div id="footer">
+        <img class="logo" src="images/logo.png" alt="akan logo">
+        <div >
+        <p>Discover you name</p>
+        <p>&copy; 2026 Royal Akan Generator</p>
+        <p>Created with love to celebrate Akan culture.</p>
+        </div>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
