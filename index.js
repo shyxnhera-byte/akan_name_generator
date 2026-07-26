@@ -25,7 +25,7 @@ let akan_form = document.getElementById("form")
 akan_form.addEventListener("submit" , function(event){  //submit event runs when btn is clicked
  //prevent form from refreshing   
 event.preventDefault()
-//.value gets actual value user typed
+//.value gets actual value the user typed
 let day = parseInt(document.getElementById("day").value, 10);
 let month = parseInt(document.getElementById("month").value, 10);
 let year = parseInt(document.getElementById("year").value, 10);
