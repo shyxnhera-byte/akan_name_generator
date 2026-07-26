@@ -139,8 +139,9 @@ footer div {
     font-size: larger;
     font-weight: bolder;
 }
-
-
+#gender ::placeholder {
+    color: #D4A72C;
+}
 
 
 

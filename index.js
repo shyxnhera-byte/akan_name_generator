@@ -64,6 +64,10 @@ if (gender.toLowerCase() === "male")
 { akanName = maleNames[dayOfWeek];}
 else if (gender.toLowerCase() === "female")
 { akanName = femaleNames[dayOfWeek]}
+else {
+    alert("Type in Male or Female");
+    return;
+}
 
 paragraph.textContent = akanName
 });
