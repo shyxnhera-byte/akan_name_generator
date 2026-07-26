@@ -9,6 +9,7 @@ nav {
    gap: 550px;
    background-color: #171717;
    height: 200px;
+   flex-wrap: wrap;
 }
 .logo {
     width: 300px;
@@ -54,6 +55,7 @@ nav {
 #intro {
     display: flex;
     gap: 300px;
+    flex-wrap: wrap;
 
 }
 #welcome {
@@ -110,6 +112,7 @@ margin-left: 20px;
 #hero {
     display: flex;
     gap: 200px;
+    flex-wrap: wrap;
 }
 #result {
     text-align: center;
