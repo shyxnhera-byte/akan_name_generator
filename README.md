@@ -33,5 +33,12 @@ d = ( (CC/4 - 2*CC - 1) + (5*YY/4) + (26*(MM+1)/10) + DD ) mod 7
 - Friday	 (   Kofi	 ,   Afua)
 - Saturday	  ( Kwame	 ,   Ama)
 
+## Set Up Instructions
+1. Clone this repository to your computer
+2. Open the project folder in Visual Studio Code
+3. Open the `index.html` file in your browser
+4. Enter your date of birth and gender
+5. Click the submit button to generate your Akan name
+
 ## License
 This project is released under the MIT license.
